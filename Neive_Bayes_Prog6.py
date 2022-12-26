@@ -74,7 +74,7 @@ def getAccuracy(testSet, predictions):
     return (correct/float(len(testSet)))*100.0
 def main():
 
-    filename='heart_disease_data.csv'
+    filename ='/content/drive/MyDrive/datasets/DBetes.csv'
     splitRatio=0.70
     dataset=loadCsv(filename)
     
@@ -90,5 +90,5 @@ def main():
 main()
 
 #Output
-#Split 768 rows into train = 514 and test = 254 rows
-#Accuracy of the classifier is : 62.999212598425197%
+#Split 250 rows into train=175 and test=75 rows
+#Accuracy of the classifier is : 61.33333333333333%
